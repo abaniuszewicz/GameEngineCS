@@ -15,8 +15,7 @@
                                       Draw="CanvasControl_OnDraw"
                                       SizeChanged="CanvasControl_SizeChanged"
                                       CreateResources="CanvasControl_OnCreateResources"
-                                      Update="CanvasControl_OnUpdate"
-                                      Grid.RowSpan="3" Grid.ColumnSpan="3"/>
+                                      Update="CanvasControl_OnUpdate"/>
         <input:DPad Height="200" Width="200" VerticalAlignment="Bottom" HorizontalAlignment="Right" OnKeyPressed="DPad_OnOnKeyPressed"/>
     </Grid>
 </Page>

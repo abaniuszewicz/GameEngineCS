@@ -70,8 +70,6 @@ namespace Game.GameLogic
                     OnCollision?.Invoke(Enums.CollisionType.SnakeSnake);
                 if (tile.GetType() == typeof(Food))
                     OnCollision?.Invoke(Enums.CollisionType.SnakeFood);
-                if (tile.GetType() == typeof(Border))
-                    OnCollision?.Invoke(Enums.CollisionType.SnakeBorder);
             }
             return Enums.CollisionType.None;
         } 
